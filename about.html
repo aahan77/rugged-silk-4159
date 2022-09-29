@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <style>#container1{
+        position: absolute;
+        top: 35%;
+        left: 45px;
+        border: 0px solid red;
+        width: 40%;
+        height: 400px;
+    }
+    #container1>h1{
+        font-size: 50px;
+        font-family: sans-serif;
+        color: rgb(44,51,63);
+    }
+    #container1>h1>span{
+        text-decoration: underline;
+        
+        color: rgb(38,126,107);
+    }
+    #container1>p{
+        font-size: 25px;
+        margin-top: 30px;
+        font-family: sans-serif;
+        color: rgb(44,51,63);
+    }
+    
+    #container1>button{
+        display: flex;
+        align-items: center;
+        background-color: rgb(38,126,107);
+        border: none;
+        height: 50px;
+        border-radius: 20px;
+        padding: 18px 18px;
+        color: white;
+        margin-top: 55px;
+        font-size: 17px;
+    }
+    
+    #container1>button:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color:rgb(6, 73, 58) ;
+
+}
+    
+    </style>
+    <link rel="stylesheet" href="./css/navbar.css">
+    
+</head>
+<body>
+    <div class="nav1">
+        <p>
+          Get support for your family this summer with the help of Brightline
+          experts! <a href="signup.html">Sign up today.</a>
+        </p>
+      </div>
+  
+      <section class="main">
+        <header>
+          <nav>
+            <div class="Imglogo">
+              <img
+                src="https://www.hellobrightline.com/assets/brightline-logo.svg?w=163&h=40&fit=thumb&fm=png&q=90"
+                alt=""
+              />
+            </div>
+  
+            <div class="nav-items">
+              <ul>
+                <li>
+                  <a href="#">About <i class="fas fa-caret-down"></i> </a>
+  
+                  <div class="dropdown_menu">
+                    <ul>
+                      <li><a href="#">The Brightline Experience</a></li>
+                      <li><a href="#">Our Approach</a></li>
+                      <li><a href="#">Our Research</a></li>
+                      <li><a href="#">About Us</a></li>
+                    </ul>
+                  </div>
+                </li>
+  
+                <li><a href="#">Employers and plans </a></li>
+                <li><a href="#">For families </a></li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="btn">
+              <button class="btn1"><a href="login.html">Log in</a></button>
+              <button class="btn2"><a href="signup.html"> Sign Up</a></button>
+            </div>
+          </nav>
+        </header>
+  
+        <div id="container1">
+          <h1>Built for kids and teens, here for <span>Families</span></h1>
+          <p>
+            Brightline brings virtual behavioral and mental health care to
+            families, when and where you need it.
+          </p>
+  
+          <button>Join Today</button>
+        </div>
+      </section>
+
+      
+</body>
+<script src="./script/index.js"></script>
+<script src="./script/login.js"></script>
+<script src="./script/signup.js"></script>
+</html>
+
