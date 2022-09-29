@@ -63,7 +63,7 @@ header{
 .main>header>nav>.nav-items>ul>li{
     
     list-style: none;
-    
+    position: relative;
     
     margin-left: 4rem;
 }
@@ -71,7 +71,9 @@ header{
     text-decoration: none;
 color: black;
 }
-.nav-items>ul{display: flex;}
+.nav-items>ul{display: flex;
+list-style: none;
+}
 
 .btn{
     margin-left: 150px;
@@ -148,5 +150,37 @@ nav.sticky{
     background-color: rgb(255,217,93);
 
 }
+/* nav:hover{
+    background-color: rgb(255,217,93);
+} */
+.dropdown_menu{
+    display: none;
+}
 
+.nav-items ul li a :hover .dropdown_menu{
+    display:block;
+    
+    position: absolute;
+    left: 0;
+    width: 1000px;
+
+    top: 100%;
+    margin-top: 15px;
+    
+    background-color: rgb(255,217,93);
+}
+
+.nav-items ul li :hover.dropdown_menu>ul{
+    list-style: none;
+    /* display: flex; */
+    padding: 10px;
+    margin: 10px;
+    
+}
+.dropdown_menu>ul>li{
+    margin: 18px;
+    width:1212px;
+    
+    
+}
 

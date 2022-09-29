@@ -1,0 +1,163 @@
+.main2{
+    margin-top: 70px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(44,51,63);
+    /* display: flex; */
+ }
+
+ .footbox{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    margin: auto;
+    height: auto;
+    border: 0px solid yellow;
+
+ }
+
+ .footbox1{
+    width: 35%;
+    height: auto;
+    border: 0px solid red;
+ }
+
+ .in1footbox1{
+    width: 85%;
+    height: 200px;
+    border: 0px solid blue;
+ }
+
+ .in2footbox1{
+    display: flex;
+    margin-top: 30px;
+    width: 80%;
+    height: 55px;
+    border: 0px solid pink;
+
+ }
+
+ .in3footbox1{
+    margin-top: 30px;
+    
+    height: 425px;
+    border: 0px solid pink;
+ }
+
+ .in1footbox1 p{
+    margin-top: 20px;
+ }
+ .in1footbox1 input{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px ;
+ }
+
+
+ .in2footbox1 a img{
+
+height: 55px;
+margin-left: 30px;
+border-radius: 30px;
+
+ }
+
+ .in3footbox1 p{
+   margin: 30px;
+ }
+
+ .footbox2{
+    width: 60%;
+    border: 0px solid green;
+    height: 800px;
+ }
+
+ .in1footbox2{
+    display: flex;
+    width: 100%;
+    height: 270px;
+    border: 0px solid rgb(20, 0, 238);
+
+ }
+
+ .in1footbox2 ul{
+margin: 10px;
+margin-left: 100px;
+margin-top: -15px;
+ }
+.in1footbox2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    /* font-family: sans-serif; */
+}
+ .in1footbox2 li{
+    list-style:none ;
+    color: white;
+    font-size: 25px;
+    padding: 12px;
+    font-family: sans-serif;
+ }
+
+ .in1footbox2 span{
+    font-weight: bolder;
+ }
+
+ .footbox3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 120px;
+    border: 0px solid peru;
+    
+    height: 200px;
+ }
+
+ .footbox3+p{
+    margin-top: 80px;
+    margin-left: 90px;
+ }
+ .main2 h1{
+color: white;
+font-family: sans-serif;
+ }
+
+ .main2 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: medium;
+ }
+
+hr{width: 87%;
+    opacity:0.3;
+margin: auto;}
+
+.lastfoot{
+    display: flex;
+    margin-top: 10px;
+    width: 87%;
+    justify-content: space-between;
+}
+
+.lastfoot>div{
+    display: flex;
+
+    margin: 30px;
+    margin-left: 100px;
+}
+.lastfoot a{
+    /* text-decoration: none; */
+    color: white;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.lastfoot>div+p{
+    
+    margin: 30px;
+    margin-right: -100px;
+    
+}
