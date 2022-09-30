@@ -422,3 +422,13 @@ color: rgb(49,132,112);
 
 
  
+
+ @media screen and (max-width: 1280px ){
+    #container1{
+        padding: 0.6rem;
+        
+    }
+    #container1>h1{
+        font-size: 25px;
+    }
+    }
