@@ -44,7 +44,7 @@ header{
     border: 0px solid red;
     justify-self: left;
 }
-.main>header>nav>.Imglogo>img{
+header>nav>.Imglogo>img{
     width: 50%;
 }
 .main{
@@ -60,7 +60,7 @@ header{
     /* z-index:1000; */
 }
 
-.main>header>nav>.nav-items>ul>li{
+header>nav>.nav-items>ul>li{
     
     list-style: none;
     position: relative;
